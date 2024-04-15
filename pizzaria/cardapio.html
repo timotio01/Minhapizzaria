@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <script src="./assets/js/pizzas.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <!-- class models sempre sera display none, porque aqui é so o modelo da estrutura do pizza item -->
+    <div class="models">
+        <div class="pizza--item">
+            <a href="">
+                <div class="pizza--item--img">
+                    <img src="./assets/images/pizza.png" alt="" width="200px">
+                </div>
+                <div class="pizza--item--add">+</div>
+            </a>
+            <div class="pizza--item--preco">--</div>
+            <div class="pizza--item--nome">--</div>
+            <div class="pizza--item--desc">--</div>
+        </div>
+    </div>
+    <main>
+        <h1>Pizzas</h1>
+        <div class="pizzas--area"></div>   
+    </main>
+    <div class="pizza--modal--area">
+        <div class="pizza--modal--body">
+            <div class="pizza--big">
+                <img src="./assets/images/pizza.png" >
+            </div>
+            <div class="pizza--info">
+                <h1>--</h1>
+                <div class="pizza--info--desc">--</div>
+                <div class="pizza--info--sizearea">
+                    <div class="pizza--info--setor">Tamanhos</div>
+                    <div class="pizza--info--sizes">
+                        <div class="pizza--info--size">PEQUENO <span>--</span></div>
+                        <div class="pizza--info--size">MEDIO <span>--</span></div>
+                        <div class="pizza--info--size">GRANDE <span>--</span></div>
+                    </div>
+                </div>
+                <div class="pizza--info--precoarea">
+                    <div class="pizza--info--setor">preço</div>
+                    <div class="pizza--info--preco">
+                        <div class="pizza--info--precoatual">R$ --</div>
+                        <div class="pizza--info--qtarea">
+                            <button class="pizza--info--qtmenos">-</button>
+                            <div class="pizza--info--qt">1</div>
+                            <button class="pizza--info--qtmais">+</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="pizza--info--addbtn">Adicionar ao carrinho</div>
+                <div class="pizza--info--cancelbtn">Cancelar</div>    
+            </div>
+        </div>
+    </div>
+    <script src="./assets/js/cardapio.js"></script>
+</body>
+</html>
+
+<!-- 
+
+ criando divs para cada item da pizza?
+ div ser um link
+
+ div pizza--item
+    dentro da div
+    link a
+        dentro do link 
+        div img
+        div btn
+    abaixo do link
+    div preco
+    div nome
+    div descricao
+
+-->
